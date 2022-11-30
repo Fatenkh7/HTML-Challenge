@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(201, 199, 137) ;
+    color: black;
+    text-align: center;
+}
+header{
+    font-size: 40px;
+    font-weight: bolder;
+    font-style: italic ;
+    text-decoration: underline;
+    text-shadow:4px 4px #ffffff;
+}
+span{
+    margin: 7%;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    height: 3%;
+}
+.links , h1 , footer{
+border: 20px solid black;
+background-color: black;
+color: white;
+box-shadow: 5px 5px 2px 2px #ffffff;
+}
+img{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex-cont1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items:baseline;
+        margin: 3%;
+}
+#dessert, #fudge , #flex , #accessories{
+    font-size: 20px;
+
+}
+ul, menu {
+    list-style-type: none;
+  }
+a{color: white}
+a:visited {color:white}
